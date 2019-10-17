@@ -1,13 +1,16 @@
-
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
 h2 { 
 color: blue;
 }
 a {
     text-decoration: none;
-    color: purple;
+    color: greenyellow;
     font-size: 35px;
     font-family: 'Roboto Slab', serif;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
