@@ -1,3 +1,10 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 h1 {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -6,11 +13,20 @@ color: blue;
 }
 a {
     text-decoration: none;
-    color: greenyellow;
-    font-size: 35px;
+    color: green;
+    font-size: 30px;
     font-family: 'Roboto Slab', serif;
+    margin: 12px 12px; 
 }
-
-body {
-    font-family: 'Poppins', sans-serif;
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about { 
+    padding: 37px 30px; 
+}
+.images {
+    width: 400px;
+    height: 300px;
 }
