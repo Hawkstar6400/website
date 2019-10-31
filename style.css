@@ -29,4 +29,16 @@ a {
 .images {
     width: 400px;
     height: 300px;
+    image-orientation: from-image;
+}
+.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.rotate-180 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+
 }
