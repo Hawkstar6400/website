@@ -46,6 +46,9 @@ a {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+    width: 800px; 
+    height: auto;
+    margin: 20px 150px;
 }
 .rotate-180 {
     -webkit-transform: rotate(180deg);
@@ -53,13 +56,17 @@ a {
     transform: rotate(180deg);
 
 }
+.small {
+  width: 900px;
+  height: 700px
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 50px auto;
 }
 
 /* Hide the images by default */
@@ -75,7 +82,7 @@ a {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color:red;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -96,12 +103,14 @@ a {
 
 /* Caption text */
 .text {
+  background-color: white;
   color: darkblue;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 50%;
+  margin: 0px 250px;
   text-align: center;
 }
 
